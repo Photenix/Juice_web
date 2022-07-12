@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+#containerBuyOne {
+  display: flex;
+  min-width: 600px;
+  width: 100vw;
+  height: 478px;
+  background-color: #FFF7F2;
+  justify-content: center;
+  align-items: center;
+}
+#containerBuyOne #contentText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 480px;
+  height: 274px;
+}
+#containerBuyOne #contentText #titleBuyOne {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 500;
+  font-size: 50px;
+}
+#containerBuyOne #contentText #descriptionBuyOne {
+  font-size: 18px;
+  margin-top: 18px;
+  font-weight: 400;
+}
+#containerBuyOne #contentText #buttonBuyOne {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 61px;
+  background-color: #FF7E20;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 12px;
+}
+#containerBuyOne #contentImags {
+  width: 500px;
+  height: 80%;
+}
+#containerBuyOne #contentImags #imgPromo {
+  width: 260px;
+  height: 222px;
+  background-image: url("/assets/24113 [Converted] 1.png");
+  background-size: cover;
+}
+#containerBuyOne #contentImags #imgCan {
+  height: 260px;
+  width: 750px;
+  background-image: url("/assets/Poster-S-320ml_1b 1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  transform: translateY(-120px);
+}/*# sourceMappingURL=style.css.map */
