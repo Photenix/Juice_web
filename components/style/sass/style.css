@@ -8,7 +8,7 @@
 #containerBuyOne {
   display: flex;
   min-width: 600px;
-  width: 100vw;
+  width: 1366px;
   height: 478px;
   background-color: #FFF7F2;
   justify-content: center;
@@ -56,7 +56,7 @@
 }
 #containerBuyOne #contentImags #imgCan {
   height: 260px;
-  width: 750px;
+  width: 700px;
   background-image: url("/assets/Poster-S-320ml_1b 1.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
