@@ -62,4 +62,12 @@
   background-repeat: no-repeat;
   margin-bottom: 50px;
   transform: translateY(-120px);
+}
+
+#contentComments {
+  margin-left: 140px;
+  width: 1086px;
+  height: 471px;
+  margin-top: 120px;
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */
