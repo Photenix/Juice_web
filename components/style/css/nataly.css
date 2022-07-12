@@ -6,7 +6,8 @@
   }
 
 .cont-nms{
-position: absolute;
+position: relative;
+/*arreglado error*/
 width: 1368px;
 height: 694px;
 left: -2px;
