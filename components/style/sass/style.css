@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+.contain-products {
+  padding: 0 140px;
+}
+.contain-products header h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.contain-products header h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.contain-products header .go {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+.contain-products header .go a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #FF7E20;
+}
+.contain-products .card-contain {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 36px;
+}
+.contain-products .card-contain .card-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.contain-products .card-contain .card-product footer {
+  width: calc(100% - 68px);
+}
+.contain-products .card-contain .card-product footer h2 {
+  font-size: 26px;
+}
+.contain-products .card-contain .card-product footer h3 {
+  font-size: 20px;
+}
+.contain-products .card-contain .card-product footer .text-card h3 {
+  font-weight: 400;
+}
+.contain-products .card-contain .card-product footer .text-card h2 {
+  font-weight: 600;
+}
+.contain-products .card-contain .card-product footer .price-add {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contain-products .card-contain .card-product footer .price-add h3 {
+  color: #FF7E20;
+  cursor: pointer;
+}
+.contain-products .card-contain .card-product footer .price-add h3:hover {
+  text-decoration: underline;
+}
+.contain-products .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contain-products .button button {
+  cursor: pointer;
+  border: none;
+  background-color: #FF7E20;
+  width: 180px;
+  height: 60px;
+  border-radius: 20px;
+  box-shadow: 0px 7px 9px rgba(255, 126, 32, 0.3411764706);
+}
+
+* {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
