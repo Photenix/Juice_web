@@ -1,0 +1,72 @@
+@import './mixin';
+
+.contain-products{
+    padding: 0 140px;
+    header{
+        h2{
+            font-size: 50px;
+            font-weight: 700;
+        }
+        h3{
+            font-size: 40px;
+            font-weight: 500;
+        }
+        .go{
+            @include flext-form( row,  end, center);
+            a{
+                font-size: 18px;
+                font-weight: 500;
+                color: $primary;
+            }
+        }
+        
+    }
+
+    .card-contain{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px 36px;
+
+        .card-product{
+            @include flext-form( column, center, center );
+            gap: 8px;
+            footer{
+                width: calc(100% - 68px);
+                h2{
+                    font-size: 26px;
+                }
+                h3{
+                    font-size: 20px;
+                }
+                .text-card{
+                    h3{ font-weight: 400; }
+                    h2{ font-weight: 600; }
+                }
+                .price-add{
+                    @include flext-form ( row, space-between, center );
+                    h3{
+                        color: $primary;
+                        cursor: pointer;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .button{
+        @include flext-form ( row, center, center );
+        button{
+            cursor: pointer;
+            border: none;
+            background-color: $primary;
+            width: 180px;
+            height: 60px;
+            border-radius: 20px;
+            box-shadow: 0px 7px 9px #FF7E2057;
+        }
+    }
+}
